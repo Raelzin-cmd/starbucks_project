@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -73,4 +74,9 @@ button:hover {
 .botao_menu {
     width: 60px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao_menu:hover {
+    transform: translateY(-30px);
 }
