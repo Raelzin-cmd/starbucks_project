@@ -54,7 +54,7 @@ button:hover {
     background: #018950;
 }
 
-.caixa_imagem {
+.img_box {
     width: 600px;
     display: flex;
     justify-content: flex-end;
@@ -62,7 +62,7 @@ button:hover {
 }
 
 
-.starbucks {
+.starbucks_cup {
     width: 340px;  
 }
 
@@ -71,13 +71,13 @@ button:hover {
     justify-content: center;
 }
 
-.botao_menu {
+.button_menu {
     width: 60px;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.botao_menu:hover {
+.button_menu:hover {
     transform: translateY(-30px);
 }
 
