@@ -11,14 +11,14 @@ body {
     padding-left: 100px;
 }
 
-.conteudo{
+.content {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.caixa_texto{
+.text {
     width: 600px;
 }
 
@@ -79,4 +79,15 @@ button:hover {
 
 .botao_menu:hover {
     transform: translateY(-30px);
+}
+
+.circle {
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
 }
